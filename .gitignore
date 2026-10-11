@@ -1,0 +1,19 @@
+# Local state and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.scratch/
+__pycache__/
+.DS_Store
+Thumbs.db
+# Models and audio belong in project data directories
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.wav
+*.mp3
+*.flac
+*.ogg

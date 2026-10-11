@@ -1,0 +1,6 @@
+interface:
+  display_name: "GPT-SoVITS 角色语音工作流"
+  short_description: "复用官方工具完成角色素材制作与校对、特征同步、微调和试听"
+  default_prompt: "使用 $gpt-sovits-character-voice，依据当前项目和已授权范围推进角色声音工作流，保原资料并交付可核的实际产物。"
+policy:
+  allow_implicit_invocation: true
