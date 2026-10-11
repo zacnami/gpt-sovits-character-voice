@@ -22,15 +22,7 @@ BGM 与降噪环节需要用户提供待处理语音的编号，不会自动识�
 
 将本仓库下载或克隆为名为 `gpt-sovits-character-voice` 的目录，放入所用助手的 Skill 目录。保留 `SKILL.md`、`references/` 和 `agents/` 的相对结构，并按助手的说明加载 Skill。
 
-全流程任务示例：
-
-```text
-使用 $gpt-sovits-character-voice，帮我完成这个角色的语音训练。
-素材在 <素材目录>，使用 <GPT-SoVITS 目录> 中的官方版本，
-默认使用该版本的官方预训练权重和训练参数。
-先完成素材切分与校对，交给我确认后继续特征提取和训练，
-最后交付模型、参考音频和推理 WebUI。
-```
+调用 `$gpt-sovits-character-voice`，说明素材位置和本次目标即可。
 
 指定素材处理示例：
 
